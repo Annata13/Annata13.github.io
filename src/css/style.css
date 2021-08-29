@@ -1,0 +1,223 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+.menu li{
+   float: left;
+     line-height: 60px;
+     color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.title__container{
+    box-shadow: 0px -21px 7px 0px rgb(0 0 0 / 18%) inset;
+       text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 28%;
+    height: 1017px;
+    background: url(../img/parenpng.png) 97% 100%/ auto no-repeat, url(../img/fon.jpg) 6px 0%, no-repeat;
+}
+h1{
+       
+    font-size: 79px;
+    text-align: center;
+    color: #223549;
+    padding-top: 430px;
+    font-weight: 700;
+    
+}
+.title__container h4{
+   
+    text-align: center;
+    padding-top: 49px;
+    color: #76828e;
+    font-size: 21px;
+}
+.title__container #obomne{
+  margin-top: 60px;
+    border: 2px solid #697784;
+    color: #697784;
+    font-size: 13px;
+    text-align: center;
+    width: 95px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+    margin-right: 26px;
+    
+} 
+.title__container #work{
+    margin-top: 60px;
+    border: 2px solid #697784;
+    color: #697784;
+    font-size: 13px;
+    text-align: center;
+    width: 127px;
+    height: 40px;
+    border-radius: 5px;
+    background: none;
+}
+.oboMne__container{
+    text-align: center;
+    width: 100%;
+    margin-top: 106px;
+}
+
+h2{
+    font-size: 33px;
+   text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+h2:after{
+   content: "";
+    margin: 0 auto;
+    background: #ea7700;
+    display: block;
+    width: 72px;
+    margin-top: 31px;
+    height: 4px;
+}
+.oboMne__container> img{
+    margin-top: 96px;
+    height: 165px;
+}
+.oboMne__text{
+    color: #38475a;
+    font-size: 17px;
+    padding-top: 25px;
+    text-align: left;
+    line-height: 1.2;
+    max-width: 733px;
+    letter-spacing: -0.9px;
+    margin: 0 auto;
+    font-family: calibri;
+    padding-bottom: 31px;
+}
+.oboMne{
+    padding: 8px 10px;
+    width: 158px;
+    border: 2px solid #6f7180;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.oboMne img{
+    
+}
+.oboMne a{
+  color: #6f7180;
+    font-size: 16px;
+    letter-spacing: -0.9px;
+    
+}
+.skill__container{
+   height: 523px;
+    background: url(../img/fonSkill.jpg) no-repeat;
+    margin-top: 99px;
+    padding-top: 109px;
+    margin-bottom: 195px;
+}
+.skill__tabl{
+        display: flex;
+    padding-top: 103px;
+    max-width: 1181px;
+    margin: 0 auto;
+}
+.skill__column{
+    padding: 0 44px;
+    text-align:center;
+}
+.skill__column img{
+    margin-bottom: 35px;
+}
+.skill__text h4{
+    font-size: 18px;
+    font-weight: 900;
+    color: #e87700;
+    margin-bottom: 16px;
+}
+.skill__text p{
+           font-family: Calibri, regular;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: -1.6px;
+    color: #38475a;
+}
+.cases_container> p{
+   font-family: Calibri, regular;
+    font-size: 17px;
+    line-height: 17px;
+    color: #38475a;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 39px;
+}
+.cases_container img{
+       margin: 0 auto;
+    display: block;
+    margin-bottom: 38px;
+}
+.cases__table{
+        display: flex;
+    width: 1168px;
+    margin: 0 auto;
+}
+.cases__colum_one h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #2f4154;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.cases__colum_one> p{
+    font-family: Calibri;
+    font-size: 17px;
+    padding-bottom: 11px;
+    color: #38475a;
+}
+.cases__colum_one input{
+        color: white;
+    font-size: 21px;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #00b6af;
+    padding: 16px 0;
+}
+.cases__colum_two h5{
+   color: #38475a;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+.cases__colum_two p{
+    color: #38475a;
+    font-family: calibri, regular;
+    line-height: 20px;
+    font-size: 21px;
+    padding-right: 38px;
+}
