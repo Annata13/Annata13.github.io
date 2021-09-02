@@ -89,6 +89,7 @@ h2{
    text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    color:#182c41;
     
 }
 h2:after{
@@ -134,7 +135,7 @@ h2:after{
 }
 .skill__container{
    height: 523px;
-    background: url(../img/fonSkill.jpg) no-repeat;
+    background: url(../img/fonSkill.jpg) center no-repeat;
     margin-top: 99px;
     padding-top: 109px;
     margin-bottom: 195px;
@@ -220,4 +221,255 @@ h2:after{
     line-height: 20px;
     font-size: 21px;
     padding-right: 38px;
+}
+
+.calculator__container{
+    padding-top: 203px;
+    max-width: 887px;
+    margin: 0 auto;
+}
+.calculator__container h2:after{
+    display: none;
+}
+.calculator__container h2{
+    margin-bottom: 56px;
+}
+.calculator__container h3{
+    color: #102032;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.calculator__container select{
+    margin-bottom: 50px;
+    height: 54px;
+    width: 100%;
+    color: #102032;
+    padding-left: 20px;
+    font-size: 17px;
+    background-color: #efefef;
+}
+
+.calculator__rachet{
+    border-top: 2px solid #d2d2d2;
+    margin-top: -13px;
+    padding-top: 27px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.calculator__rachet h5{
+    width: 50%;
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 18px;
+    color: #102032;
+
+}
+.calculator__rachet p{
+    width: 50%;
+    text-align: right;
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 18px;
+    color: #102032;
+
+}
+
+.statistica__container{
+ background: url(../img/statisticfon.jpg) no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 132px;
+    padding-top: 97px;
+        height: 498px;
+}
+.statistica__tabl{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1182px;
+    padding-top: 85px;
+}
+.statistica__column{
+       width: 100%;
+}
+.statistica__column img{
+    display: block;
+    margin: 0 auto;
+        padding-bottom: 35px;
+}
+.statistica__text{
+    
+}
+.statistica__text h4{
+    font-size: 37.5px;
+    font-family: impact;
+    text-align: center;
+    margin-bottom: 22px;
+    height: 36px;
+    color: #293b4f;
+}
+.statistica__text p{
+    font-size: 14px;
+    color: #293b4f;
+    font-weight: 700;
+    text-align: center;
+}
+
+.review__container{
+    margin-top: 105px;
+}
+.review__container img{
+        padding-top: 58px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 33px;
+}
+.review__text {
+        text-align: center;
+    padding-bottom: 49px;
+    margin: 0 auto;
+    max-width: 690px;
+}
+.review__text p{
+    font-size: 17px;
+    font-family: calibri;
+    line-height: 1.2;
+    color: #172c41;
+}
+.review__slaid{
+
+    padding-bottom: 91px;
+    display: block;
+  text-align: center;
+    width: 100%;
+}
+.review__slaid_one{
+   
+       width: 10px;
+    height: 10px;
+    background-color: #e46500;
+    border-radius: 50%;
+    display: inline-block;
+        margin: 3px;
+}
+.review__slaid_two{
+    
+       width: 10px;
+    height: 10px;
+    background-color: #cfd3d8;
+    border-radius: 50%;
+    display: inline-block;
+       margin: 3px;
+}
+.review__slaid_three{
+    
+       width: 10px;
+    height: 10px;
+    background-color: #cfd3d8;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+.contacts__container{
+  background: url(../img/kontaktFon.jpg) center no-repeat;
+    height: 810px;
+    color: white;
+    padding-top: 100px;
+}
+.contacts__container>p{
+font-family: calibry;
+    font-size: 17px;
+    line-height: 1.2;
+    padding-top: 31px;
+    text-align: center;
+}
+.contacts__tabl{
+display: flex;
+    width: 806px;
+    padding-top: 47px;
+    text-align: center;
+    max-height: 155px;
+    margin: 0 auto;
+}
+.contacts__column{
+margin: 0 64px;
+    text-align: center;
+    font-family: calibri;
+    line-height: 1.2;
+    max-width: 155px;
+    font-size: 16.6px;
+    padding-bottom: 39px;
+}
+.contacts__column img{
+    padding-bottom: 17px;
+    
+}
+.contacts__container h3{
+        font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    font-family: franklin gotic medium;
+    margin-bottom: 27px;
+}
+.contacts__form{
+    width: 768px;
+    margin: 0 auto;
+}
+.contacts__form textarea{
+    background: #d0d7dde3;
+        padding: 13px 10px;
+    height: 94px;
+    width: 736px;
+    margin-left: 15px;
+}
+#textName{
+    background: #d0d7dde3;
+        padding: 13px 10px;
+       width: 352px;
+    display: inline-block;
+    height: 34px;
+    margin: 15px;
+}
+#textEmail{
+    background: #d0d7dde3;
+        padding: 13px 10px;
+       width: 352px;
+    display: inline-block;
+    height: 34px;
+    margin: 15px;
+}
+#submit{
+      margin: 0 auto;
+    display: block;
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: Franklin Gotic Medium;
+    color: #ffffff;
+    background-color: #0000ff00;
+    border-radius: 9px;
+    border: 5px solid #f9fbff;
+    padding: 15px 20px;
+}
+.contacts__icon{
+ margin: 0 auto;
+    text-align: center;
+    margin-top: 45px;
+}
+.contacts__icon img{
+   margin: 0px 25px;
+}
+footer{
+    height: 98px;
+    background: #2c3e51;
+    color: #fff;
+    padding-top: 41px;
+    text-align: center;
+}
+footer p{
+    font-family: Arial;
+    font-size: 21px;
+}
 }
