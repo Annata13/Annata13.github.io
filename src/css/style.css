@@ -292,12 +292,12 @@ h2:after{
 }
 
 .statistica__container{
- background: url(../img/statisticfon.jpg) no-repeat;
+ background: url(../img/statisticfon.jpg) fixed center no-repeat;
     width: 100%;
     margin: 0 auto;
     margin-top: 132px;
     padding-top: 97px;
-        height: 498px;
+    height: 498px;
 }
 .statistica__tabl{
     margin: 0 auto;
