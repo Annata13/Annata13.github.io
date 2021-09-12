@@ -489,17 +489,13 @@ footer p{
 
 
 .preloader {
-  /*фиксированное позиционирование*/
-  position: fixed;
-  /* координаты положения */
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  /* фоновый цвет элемента */
-  background: #e0e0e0;
-  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
-  z-index: 1001;
+ position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #191717b8;
+    z-index: 1001;
 }
 
 .preloader__row {
@@ -511,14 +507,14 @@ footer p{
   margin-top: -35px;
   margin-left: -35px;
   text-align: center;
-  animation: preloader-rotate 2s infinite linear;
+  animation: preloader-rotate 3s infinite linear;
 }
 
 .preloader__item {
   position: absolute;
   display: inline-block;
   top: 0;
-  background-color: #337ab7;
+  background-color: #f31e1e;
   border-radius: 100%;
   width: 35px;
   height: 35px;
