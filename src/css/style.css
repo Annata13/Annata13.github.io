@@ -209,9 +209,19 @@ h2:after{
     background: #00b6af;
     padding: 16px 0;
 }
-.cases__colum_one input:active{
+.cases__colum_one input:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: all 2s ease;
 }
 .cases__colum_one input:hover{
+    width:100%;
 }
 .cases__colum_two h5{
    color: #38475a;
