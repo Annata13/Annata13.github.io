@@ -209,6 +209,10 @@ h2:after{
     background: #00b6af;
     padding: 16px 0;
 }
+.cases__colum_one input:active{
+}
+.cases__colum_one input:hover{
+}
 .cases__colum_two h5{
    color: #38475a;
     font-weight: 700;
