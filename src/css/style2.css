@@ -1,0 +1,148 @@
+.title__container h1{
+    -webkit-animation:titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation:titlemove 1s ease forwards;  
+    
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s; 
+    opacity: 0;
+}
+.title__container h4{
+    -webkit-animation:titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation:titlemove 1s ease forwards;  
+       -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s; 
+    opacity: 0;
+    
+}
+.title__container div{
+    -webkit-animation:titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation:titlemove 1s ease forwards;  
+    
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s; 
+    opacity: 0;
+}
+
+
+@media  (max-width: 1160px) {
+
+.title__container  {
+    background: url(../img/parenpng.png)94% 84% / 39%  no-repeat, url(../img/fon.jpg) 0% 0%/cover no-repeat;
+  }
+    .title__container h4 {
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .title__container h1 {
+    margin: 0 auto;
+        font-size: 30px !important;    
+    }
+    .title__button input{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .oboMne__text{
+       text-align: center;
+    margin: 10px;
+    }
+    .title__button{
+        flex-direction: column;
+    }
+    .oboMne__text{
+        padding: 0 10px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .oboMne__container{
+        padding: 0 10px;
+        text-align: center;
+    }
+    .skill__tabl{
+         flex-direction: column;
+    }
+    .skill__container{
+        height: 100%;
+            background: url(../img/fonSkill.jpg) repeat;
+    }
+    .cases_container{
+       padding: 0 10px; 
+    }
+    .cases_container img{
+        width: 100%;
+    } 
+    .cases__table{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cases__colum_two{
+        padding-top: 15px;
+        width: 100%;
+    }
+    .calculator__container{
+        padding: 0 15px;
+        padding-top: 150px;
+    }
+    .statistica__tabl{
+        flex-direction: column;
+    }
+    .statistica__container{
+        height: 100%
+    }
+  
+    .contacts__icon img{
+        margin: 0 15px;
+    }
+    .contacts__form textarea{
+        width: 96%;
+    }
+    .contacts_form-row{
+        flex-direction: column;
+        width: 96%;
+    }
+    .contacts_form-row input{
+        
+        width: 100%;
+    }
+    .contacts__tabl{
+        flex-direction: column;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .contacts__container{
+        height: 100%;
+    }
+    .contacts__column{
+       margin: 0 auto;
+        padding-bottom: 10px;
+    }
+}
+
+
+.title__container input{
+    transition: all 0.2s;
+    transform:scale(1);
+}
+#obomne:hover{
+   background: #344051;
+    color: white;
+}
+#work:hover{
+   background: #344051;
+    color: white;
+}
+.title__container input:active{
+transform:scale(1.1);
+}
+
+#obomne:active{
+   transform:scale(1.1);
+}
+
+
+

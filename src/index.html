@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб-разработчик</title>
         
-         <link rel ="stylesheet" href="css/reset.css" type="text/css">
+        
         <link rel ="stylesheet" href="css/style.css" type="text/css">
+          <link rel ="stylesheet" href="css/style2.css" type="text/css">
+          <link rel ="stylesheet" href="css/font-awesome.css" type="text/css">
+            <link rel ="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
 </head>
 <body>
-    <script>
+ 
+   <script>
   window.onload = function () {
     document.body.classList.add('loaded');
   }
@@ -20,32 +24,55 @@
     <div class="preloader__item"></div>
   </div>
 </div>
-    
+   
+   
     <header>
         <nav>
-        <div class="logo">
+        <div class="container ">
+            <div class="row">
+               
+                <div class="col-md-2 col-sm  ">
+                    <div class="logo">
             Андрей Браун
         </div>
-        <div class="menu">
-            <ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Кейсы</li>
-                <li>Прайс</li>
-                <li>Отзывы</li>
-                <li>Контакты</li>
-            </ul>
-        </div>
+                </div>
+                <div class="col-4 d-none d-xl-block"></div>
+                <div class="col-1 menu d-none d-md-block">       <a href=""> Обо мне</a></div>
+                <div class="col-1 menu d-none d-md-block"><a href="">Услуги</a></div>
+                <div class="col-1 menu d-none d-md-block"><a href="">Кейсы</a></div>
+                <div class="col-1 menu d-none d-md-block"><a href="">Прайс</a></div>
+                <div class="col-1 menu d-none d-md-block"><a href="">Отзывы</a></div>
+                <div class="col-1 menu d-none d-md-block"><a href="">Контакты</a></div>
+                
+                 <div class="dropdown d-md-none col-sm gy-2">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    МЕНЮ
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">ОБО МНЕ</a></li>
+    <li><a class="dropdown-item" href="#">УСЛУГИ</a></li>
+    <li><a class="dropdown-item" href="#">КЕЙСЫ</a></li>
+    <li><a class="dropdown-item" href="#">ПРАЙС</a></li>
+    <li><a class="dropdown-item" href="#">ОТЗЫВЫ</a></li>
+    <li><a class="dropdown-item" href="#">КОНТАКТЫ</a></li>
+  </ul>
+</div>
+                
+            </div>               
+        </div>    
         </nav>
+        
+                
     </header>
-    
-<div class="main">
+    <main>
+<section class="main">
    
     <div class="title__container">
         <h1>Привет<br>Я Андрей Браун</h1>
         <h4>Фулл стек веб - разработчик и Android - разработчик</h4>
-        <input type="sumit" id="obomne" value="Обо мне">
-        <input type="sumit" id="work" value="Мои работы">
+        <div class="title__button">
+        <input type="button" id="obomne" value="Обо мне">
+        <input type="buttom" id="work" value="Мои работы"></div>
     </div>
     
     <div class="oboMne__container">
@@ -107,8 +134,9 @@
             <p>Какая-то компания</p>
             <h4>WEBSITE:</h4>
             <p>http://www.somedornain.com</p>
-            <div="bottom_site">
-            <input type="sumit" id="#bottom_site" value="VISIT LIVE SITE"></div>
+            <a href="#">
+            <div id="cases__link" >
+                Перейти на сайт  </div>  </a>
         </div>
         <div class="cases__colum_two">
             <h5>Название проекта</h5>
@@ -143,6 +171,10 @@
             <h5>Стоимость </h5>
             <p>0</p>
         </div>
+        <form>
+            <button  class="calculator__button" >
+                Оставить заявку  </button>  </form>
+       
     </div>
     
     <div class="statistica__container">
@@ -219,11 +251,13 @@
           </div>
          <h3>ОСТАВТЕ МНЕ СООБЩЕНИЕ</h3>
                   <form class="contacts__form" action="#">
-                      
+                      <div class="contacts_form-row">
                       <input id="textName" type="text" name="text_name" value=""placeholder="Имя">
-                      <input id="textEmail" type="text" name="text_email" value=""placeholder="Email">
+                          <input id="textEmail" type="text" name="text_email" value=""placeholder="Email"></div>
+                      <div class="contacts_form-colum">
                        <textarea name="text_message" value="" placeholder="Сообщение"></textarea>
                       <input id="submit" type="submit">
+                      </div>
                   </form>
                   <div class="contacts__icon">
                        <img src="img/contact_fb.png" alt="">
@@ -234,15 +268,18 @@
                             <img src="img/contact_in.png" alt="">
                   </div>
       </div>
-    </div>
+          
    
    <div class="place__container">
        <h4>I'M HERE</h4>
    </div>
-   
-    
+   </section>
+    </main>
 <footer>
     <p>Copyrigth@2021 Андрей Браун Design by Web</p>
 </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
